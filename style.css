@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background: black;
+    color: #00f7ff;
+    font-family: 'Courier New', monospace;
+    overflow-x: hidden;
+}
+
+/* Cursor Glow */
+.cursor {
+    width: 20px;
+    height: 20px;
+    background: cyan;
+    position: fixed;
+    border-radius: 50%;
+    pointer-events: none;
+    box-shadow: 0 0 20px cyan;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #00f7ff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-shadow: 0 0 10px cyan;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid cyan;
+    color: cyan;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: cyan;
+    color: black;
+    box-shadow: 0 0 20px cyan;
+}
+
+/* Cards */
+.card {
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid cyan;
+    box-shadow: 0 0 20px rgba(0,255,255,0.2);
+}
+
+/* Skills */
+#skills {
+    padding: 40px;
+}
+
+.skill-box {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 1px solid cyan;
+    transition: 0.3s;
+}
+
+.skill-box:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px cyan;
+}
+
+/* Projects */
+.project-card {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid cyan;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px cyan;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+}
